@@ -1,0 +1,32 @@
+{
+  "name": "ntp-js-server",
+  "version": "1.0.0",
+  "description": "A simple lightweight NTP server written in Node.js using UDP sockets.",
+  "main": "ntp-server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ntp-server.js",
+    "check": "node --check ntp-server.js"
+  },
+  "keywords": [
+    "ntp",
+    "ntp-server",
+    "time-server",
+    "udp",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Mohammad Mehdi Azizi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGreatAzizi/NTP-JS-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheGreatAzizi/NTP-JS-Server/issues"
+  },
+  "homepage": "https://github.com/TheGreatAzizi/NTP-JS-Server#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}

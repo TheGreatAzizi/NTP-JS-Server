@@ -1,0 +1,10 @@
+services:
+  ntp-js-server:
+    build: .
+    container_name: ntp-js-server
+    restart: unless-stopped
+    environment:
+      NTP_HOST: 0.0.0.0
+      NTP_PORT: 123
+    ports:
+      - "123:123/udp"
