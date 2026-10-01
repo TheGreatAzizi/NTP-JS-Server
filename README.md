@@ -1,5 +1,5 @@
 # NTP JS Server
-
+[![DevSponsors](https://devsponsors.github.io/assets/badges/sponsor.svg)](https://devsponsors.github.io)
 A simple lightweight NTP server written in Node.js using UDP sockets.
 
 This project implements a basic NTP server that responds to standard NTP client requests and returns the current system time in NTP timestamp format.
